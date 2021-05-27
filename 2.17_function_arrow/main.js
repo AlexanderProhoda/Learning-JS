@@ -12,7 +12,7 @@
 //   function() { alert("Вы отменили выполнение."); }
 // );
 
-function ask (question, yes, no){
+function ask (question, yes, no) {
     if (confirm(question)) yes()
     else no();
 }
