@@ -4,10 +4,10 @@
 // min(3, -1) == -1
 // min(1, 1) == 1
 
-function min(a, b){
-  if (a < b){
+function min(a, b) {
+  if (a < b) {
     return a
-  }else{
+  } else {
     return b //без этой строчки выводит (если a>b) undefined
   }
 }
