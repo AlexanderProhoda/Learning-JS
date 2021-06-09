@@ -16,8 +16,8 @@ alert( calculator.mul() );
 
 let calculator = {
     read() {
-    a = +prompt('Введите значения А', ''),
-    b = +prompt('А теперь значения B', '')
+      a = +prompt('Введите значения А', ''),
+      b = +prompt('А теперь значения B', '')
     },
     sum() {
       return (a + b) 
